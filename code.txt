@@ -1,3 +1,7 @@
 #include <stdio.h>
 
-int main() {}
+
+int main() {
+char operacija;
+double broj1, broj2, rezultat;
+}
