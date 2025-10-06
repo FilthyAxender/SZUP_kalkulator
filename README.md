@@ -1,2 +1,1 @@
-# SZUP_kalkulator
-Projekat za ispit
+kalkulator
