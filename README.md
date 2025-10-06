@@ -1,1 +1,1 @@
-kalkulator
+Kalkulator u programskom jeziku C predstavlja jednostavnu aplikaciju koja omogućava korisniku da izvrši osnovne aritmetičke operacije nad unetim brojevima. Program koristi standardne ulazno–izlazne funkcije poput `scanf()` i `printf()` za komunikaciju sa korisnikom. Logika rada kalkulatora se najčešće implementira pomoću grananja (`if-else` ili `switch` strukture) radi određivanja operacije koju korisnik želi da izvrši.
