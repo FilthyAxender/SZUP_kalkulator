@@ -1,0 +1,47 @@
+#include <stdio.h>
+
+
+int main() {
+char operacija;
+double broj1, broj2, rezultat;
+printf("Unesite operaciju (+, -, *, /): ");
+ scanf(" %c", &operacija);
+
+printf("Unesite dva broja: ");
+scanf("%lf %lf", &broj1, &broj2);
+
+switch (operacija) {
+        case '+':
+            rezultat = broj1 + broj2;
+            printf("Rezultat: %.2lf\n", rezultat);
+            break;
+        case '-':
+            rezultat = broj1 - broj2;
+            printf("Rezultat: %.2lf\n", rezultat);
+            break;
+        case '*':
+            rezultat = broj1 * broj2;
+            printf("Rezultat: %.2lf\n", rezultat);
+            break;
+        case '/':
+            if (broj2 != 0)
+                rezultat = broj1 / broj2;
+            else {
+                printf("Greska: deljenje nulom nije dozvoljeno!\n");
+                return 1;
+            }
+            printf("Rezultat: %.2lf\n", rezultat);
+            break;
+        default:
+            printf("Nepoznata operacija!\n");
+    }
+    return 0;
+}
+
+
+
+
+
+
+
+
