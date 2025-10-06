@@ -4,4 +4,11 @@
 int main() {
 char operacija;
 double broj1, broj2, rezultat;
+printf("Unesite operaciju (+, -, *, /): ");
+ scanf(" %c", &operacija);
+
+printf("Unesite dva broja: ");
+scanf("%lf %lf", &broj1, &broj2);
+
 }
+
